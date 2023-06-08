@@ -14,12 +14,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0E8E8F202966143600128D2B /* tpLocation.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = tpLocation.gpx; sourceTree = "<group>"; };
 		0EE60BD2294E46D2006AE1DE /* shLocation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = shLocation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EE60BD5294E46D2006AE1DE /* shLocationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shLocationApp.swift; sourceTree = "<group>"; };
 		0EE60BD7294E46D2006AE1DE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0EE60BD9294E46D6006AE1DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0EE60BDB294E46D6006AE1DE /* shLocation.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = shLocation.entitlements; sourceTree = "<group>"; };
 		0EE60BDD294E46D6006AE1DE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0EE60BE4294E4A64006AE1DE /* SHLocation.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = SHLocation.gpx; sourceTree = "<group>"; };
+		0EED95BF29720FF300F5C213 /* CaLocation.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = CaLocation.gpx; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +39,9 @@
 		0EE60BC9294E46D2006AE1DE = {
 			isa = PBXGroup;
 			children = (
+				0EED95BF29720FF300F5C213 /* CaLocation.gpx */,
+				0E8E8F202966143600128D2B /* tpLocation.gpx */,
+				0EE60BE4294E4A64006AE1DE /* SHLocation.gpx */,
 				0EE60BD4294E46D2006AE1DE /* shLocation */,
 				0EE60BD3294E46D2006AE1DE /* Products */,
 			);
@@ -262,6 +268,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = shLocation/shLocation.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"shLocation/Preview Content\"";
@@ -279,13 +286,14 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 12.6;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ca.centennialcollege.test.shLocation;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ck.shLocation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -300,6 +308,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = shLocation/shLocation.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"shLocation/Preview Content\"";
@@ -317,13 +326,14 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 12.6;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ca.centennialcollege.test.shLocation;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ck.shLocation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = YES;
